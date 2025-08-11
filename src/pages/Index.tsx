@@ -28,6 +28,7 @@ const Index = () => {
           <Button 
             size="lg" 
             className="bg-gold hover:bg-gold/90 text-black font-semibold px-8 py-4 text-lg rounded-full shadow-2xl hover:shadow-gold/25 transition-all duration-300 hover:scale-105"
+            onClick={() => window.open('https://t.me/cashflowInfinite', '_blank')}
           >
             <Icon name="Users" className="mr-2" size={20} />
             Присоединиться к сообществу
@@ -207,6 +208,7 @@ const Index = () => {
           <Button 
             size="lg" 
             className="bg-blue-deep hover:bg-blue-deep/90 text-white font-semibold px-12 py-6 text-xl rounded-full shadow-2xl hover:shadow-blue-deep/25 transition-all duration-300 hover:scale-105"
+            onClick={() => window.open('https://t.me/cashflowInfinite', '_blank')}
           >
             <Icon name="Zap" className="mr-3" size={24} />
             Хочу в Потоки!
